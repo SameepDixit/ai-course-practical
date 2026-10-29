@@ -180,3 +180,6 @@ a.ln-guide:hover{background:var(--hover)}
   .ln-plan,.ln-plan:first-child,.ln-plan:last-child,.ln-plan:nth-child(2),.ln-plan:nth-child(3){padding:20px 0;border-right:0;border-top:1px solid var(--line)}
   .ln-plan:first-child{border-top:0}
 }
+.ln-tutor{background:var(--sage);border-radius:32px;margin:0 var(--pad) 64px;padding:48px}
+.ln-tutor .ln-guides{border-top-color:var(--ink)}
+@media (max-width:820px){.ln-tutor{padding:28px 20px;border-radius:24px}}
