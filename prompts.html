@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Prompt library | Practical AI</title>
+<meta name="description" content="Every prompt from the course, plus extra ones, ready to copy. Filter by who you are.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#14110d" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f1e8d6" media="(prefers-color-scheme: light)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/bigshoulders.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/zilla-r.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.className='js';try{var t=localStorage.getItem('pai-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body data-root="" data-pages="pages.json" class="t1 hub-prompts">
+<svg class="defs" width="0" height="0" aria-hidden="true" focusable="false"><defs><pattern id="ht" width="5" height="5" patternUnits="userSpaceOnUse"><circle class="htd" cx="2.5" cy="2.5" r="1.25"/></pattern><mask id="wear" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><rect width="200" height="200" fill="#fff"/><g fill="#000"><circle cx="38" cy="30" r="3"/><circle cx="150" cy="42" r="2"/><circle cx="120" cy="150" r="4"/><circle cx="60" cy="140" r="2"/><circle cx="96" cy="70" r="1.6"/><circle cx="170" cy="110" r="2.4"/><circle cx="24" cy="100" r="1.8"/><path d="M30 60l40-6v2l-40 6zM110 120l50 4v1.6l-50-4zM70 168l40-10v1.5l-40 10z"/></g></mask></defs></svg>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+ <a class="brand" href="index.html"><svg class="logo" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" focusable="false"><path class="ip" d="M3 20h31v5H3z"/><g class="ik"><path d="M4 6h26v11H4z"/><path d="M30 11h6v13H19v5"/></g><path class="ikf" d="M16 29h6v9h-6z"/><path class="ikf" d="M8 9h3v5H8z" opacity=".35"/></svg><span class="bn">Practical <b>AI</b></span></a>
+ <span class="mast-meta" aria-hidden="true">Job-work press<br>Free, always</span>
+ <a class="tbtn sbtn" href="search.html" aria-label="Search"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15 15l6.5 6.5" stroke="currentColor" stroke-width="2.8" stroke-linecap="square"/></svg></a>
+ <button class="tbtn" id="theme" type="button" aria-label="Switch paper: day or night colours"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false" class="ti"><circle cx="12" cy="12" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 1v22M1 12h22" stroke="currentColor" stroke-width="1.6"/><path class="half" d="M12 5a7 7 0 0 1 0 14z" fill="currentColor"/></svg></button>
+ 
+</header>
+<main id="main" class="hub t1 hub-prompts">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a></nav>
+
+<header class="tk-head">
+ <div class="tk-band"><span class="tk-no">The desk</span><span class="tk-tr">103 prompts</span></div>
+ <h1 class="wood ttl"><span class="w" style="--i:0" data-t="Prompt">Prompt</span> <span class="w" style="--i:1" data-t="library">library</span></h1>
+ <p class="lead">Every prompt from the course, plus extra ones, ready to copy. Filter by who you are.</p>
+</header>
+<div class="pfilter"><label class="label" for="pq">Find a prompt</label><input id="pq" type="search" autocomplete="off" enterkeyhint="search"><div class="pchips" role="group" aria-label="Find a prompt"><button type="button" class="pchip" data-aud="all" aria-pressed="true">All</button><button type="button" class="pchip t1" data-aud="t1" aria-pressed="false">Get answers faster</button><button type="button" class="pchip t2" data-aud="t2" aria-pressed="false">Automate office work</button><button type="button" class="pchip t3" data-aud="t3" aria-pressed="false">Make content</button><button type="button" class="pchip t4" data-aud="t4" aria-pressed="false">Build small tools</button><button type="button" class="pchip t5" data-aud="t5" aria-pressed="false">Small business</button><button type="button" class="pchip t6" data-aud="t6" aria-pressed="false">Teachers and students</button><button type="button" class="pchip t7" data-aud="t7" aria-pressed="false">Job seekers</button></div><p class="small pcount" id="pcount" aria-live="polite"></p></div>
+<div class="pcards"><article class="pcard slip t1" data-aud="t1"><div class="slip-h"><h2 class="ph">Learn pivot tables in 10 minutes</h2><button class="btn small copy" type="button" data-target="p-0">Copy</button></div><pre id="p-0" tabindex="0">Role: You are a patient Google Sheets trainer.
+Task: Teach me what a pivot table is and how to make my first one.
+Context: I use Google Sheets daily for simple lists and totals. I have never used a pivot table. I have a sheet with columns Date, Salesperson, Region and Amount.
+Format: Give me 1) a one-sentence definition, 2) exactly 5 numbered steps to build a pivot table that shows total Amount for each Region, 3) one common mistake to avoid. Keep it under 150 words.</pre><a class="psrc" href="lessons/brief-it-like-a-colleague.html">From lesson 1.01</a></article>
+<article class="pcard slip t1" data-aud="t1"><div class="slip-h"><h2 class="ph">Turn a rude message into a polite one</h2><button class="btn small copy" type="button" data-target="p-1">Copy</button></div><pre id="p-1" tabindex="0">Rewrite my message so it is polite and clear. Match the tone of the example.
+
+Example of the tone I like:
+&quot;Hi Meera, thanks for sending the draft. Could you share the final version by Thursday 5 PM? That lets me check it before the review. Thank you!&quot;
+
+My message:
+&quot;You are always late with the files. Send them on time from now on.&quot;
+
+Rules: Keep it under 45 words. Do not blame the person. Include a clear deadline: Wednesday 4 PM. Give me only the rewritten message.</pre><a class="psrc" href="lessons/show-an-example.html">From lesson 1.02</a></article>
+<article class="pcard slip t1" data-aud="t1"><div class="slip-h"><h2 class="ph">Compare two laptops in one table</h2><button class="btn small copy" type="button" data-target="p-2">Copy</button></div><pre id="p-2" tabindex="0">Compare these two laptops for a person who does spreadsheets, email and video calls for 8 hours a day.
+
+Laptop A: 16 GB RAM, 512 GB SSD, 1.3 kg, battery 12 hours, price Rs 62,000.
+Laptop B: 8 GB RAM, 512 GB SSD, 1.8 kg, battery 7 hours, price Rs 48,000.
+
+Format: a table with columns Feature, Laptop A, Laptop B, Better for office work. Use 5 rows: RAM, Weight, Battery, Price, Overall. After the table, write a one-line verdict starting with &quot;Verdict:&quot;. Use only the facts I gave. Do not add specs.</pre><a class="psrc" href="lessons/control-the-format.html">From lesson 1.03</a></article>
+<article class="pcard slip t1" data-aud="t1"><div class="slip-h"><h2 class="ph">Improve your profile bio by letting the AI interview you</h2><button class="btn small copy" type="button" data-target="p-3">Copy</button></div><pre id="p-3" tabindex="0">Here is my current professional bio:
+&quot;I am a hard working person with 4 years of experience in office work. I am good at many things and I am a team player.&quot;
+
+Do not rewrite it yet. First, ask me exactly 3 short questions that will help you make it specific and believable. Number the questions. Wait for my answers.</pre><a class="psrc" href="lessons/fix-a-bad-answer.html">From lesson 1.04</a></article>
+<article class="pcard slip t1" data-aud="t1"><div class="slip-h"><h2 class="ph">Explain GST in simple words, and flag what to verify</h2><button class="btn small copy" type="button" data-target="p-4">Copy</button></div><pre id="p-4" tabindex="0">Explain what GST (Goods and Services Tax) is in India, for a new employee in an accounts-adjacent role.
+
+Rules:
+1. Write 4 bullet points, each under 20 words.
+2. After each bullet, add a tag: [Sure] if it is a basic well-known idea, or [Verify] if it may change (rates, limits, deadlines, forms).
+3. At the end, list 2 official places where I should verify the [Verify] items.
+4. If you are not sure about something, say &quot;I am not sure&quot; instead of guessing.</pre><a class="psrc" href="lessons/check-facts.html">From lesson 1.05</a></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Chase a payment confirmation politely</h2><button class="btn small copy" type="button" data-target="p-5">Copy</button></div><pre id="p-5" tabindex="0">Write 3 versions of a follow-up email: Short (max 40 words), Normal (max 80 words), Firm (max 80 words, still polite).
+
+Facts:
+- Sender: Karan
+- Receiver: Ms Iyer from a vendor company
+- We sent Purchase Order 2291 on 12 October.
+- We have not received a delivery date.
+- Goal: get a confirmed delivery date by Friday.
+
+Each version needs a subject line. Use simple English. No emojis. Sign off as Karan.</pre><a class="psrc" href="lessons/write-emails-faster.html">From lesson 2.01</a></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Make an action table from rough notes</h2><button class="btn small copy" type="button" data-target="p-6">Copy</button></div><pre id="p-6" tabindex="0">Turn these meeting notes into an action table.
+
+Notes:
+&quot;Team sync, Monday. Priya will update the leave tracker by Wednesday. We agreed to move the monthly review to the 28th. Someone should book the meeting room for the review. Arjun to share the new template, he said Friday. Budget for training still not decided, discuss next week.&quot;
+
+Output format:
+1. A table with columns: Task, Owner, Due date.
+2. If no owner is named, write Unassigned. If no date is named, write Not set. Do not guess.
+3. Then a list called &quot;Decisions&quot; and a list called &quot;Open questions&quot;.</pre><a class="psrc" href="lessons/meeting-notes-to-actions.html">From lesson 2.02</a></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Clean names and turn text amounts into numbers</h2><button class="btn small copy" type="button" data-target="p-7">Copy</button></div><pre id="p-7" tabindex="0">I use Google Sheets. Column A has names with extra spaces and wrong capital letters. Column B has amounts typed as text with a rupee sign and commas.
+
+Sample rows:
+A2: &quot;  ravi KUMAR &quot;   B2: &quot;₹12,500&quot;
+A3: &quot;meena  shah&quot;     B3: &quot;₹8,250&quot;
+
+Give me two formulas for row 2 that I can fill down:
+1. In C2: the clean name, like &quot;Ravi Kumar&quot;.
+2. In D2: the amount as a real number, like 12500.
+Show the formula only, then one line explaining how it works.</pre><a class="psrc" href="lessons/clean-data-sheets-formulas.html">From lesson 2.03</a></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Make a 5-line weekly update</h2><button class="btn small copy" type="button" data-target="p-8">Copy</button></div><pre id="p-8" tabindex="0">Write a weekly update for my manager in exactly 5 lines.
+
+Data (support requests closed per day this week): Monday 42, Tuesday 38, Wednesday 51, Thursday 47, Friday 40.
+Last week&#x27;s total: 205.
+
+Lines to write:
+1. Total closed this week and the daily average (1 decimal).
+2. Change versus last week, in number and percent (1 decimal).
+3. The busiest day.
+4. One risk: Wednesday was heavy, so staffing may be thin on busy days.
+5. Next step: review the staffing plan for peak days.
+
+Show your working for the numbers in one short line at the end. Use plain words.</pre><a class="psrc" href="lessons/weekly-report-from-numbers.html">From lesson 2.04</a></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Summarise a leave policy in 4 lines</h2><button class="btn small copy" type="button" data-target="p-9">Copy</button></div><pre id="p-9" tabindex="0">Summarise the policy below for an employee.
+
+Output exactly:
+1. Main point (1 line)
+2. What I must do (up to 3 bullets)
+3. Dates and numbers (bullets)
+4. What is unclear (bullets; write &quot;Nothing&quot; if clear)
+
+Policy text:
+&quot;Employees get 18 days of paid leave each year. Leave must be requested at least 3 working days before the start date, except for emergencies. Unused leave, up to 6 days, can be carried over to the next year. Leave for more than 5 days in a row needs the manager&#x27;s written approval. The leave year runs from 1 April.&quot;
+</pre><a class="psrc" href="lessons/summarise-long-documents.html">From lesson 2.05</a></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Turn 3 bullets into a short post</h2><button class="btn small copy" type="button" data-target="p-10">Copy</button></div><pre id="p-10" tabindex="0">Write a short social media post (under 90 words) from these bullets.
+
+Bullets:
+- I used to spend 40 minutes every Friday on my weekly report.
+- Now I paste my numbers into a chatbot and it takes 8 minutes.
+- I still check every number myself.
+
+My writing style (copy this tone): &quot;I tried this for a month. It worked, with one catch. Here is what I learned.&quot;
+
+Structure: a first line that makes people stop, 2 or 3 short lines of detail, and a closing question.
+Do not use: hashtags, emojis, the words &quot;game-changer&quot; or &quot;fast-paced world&quot;. Give me 2 versions.</pre><a class="psrc" href="lessons/write-a-post-in-your-voice.html">From lesson 3.01</a></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Script: 3 Google Sheets shortcuts in 30 seconds</h2><button class="btn small copy" type="button" data-target="p-11">Copy</button></div><pre id="p-11" tabindex="0">Write a 30-second vertical video script for working people in India: &quot;3 Google Sheets shortcuts that save time&quot;.
+
+Rules:
+- Total spoken words between 65 and 80.
+- Beats with time ranges: Hook (0-5s), Tip 1, Tip 2, Tip 3, Close (26-30s).
+- The hook must show the result, not greet the viewer. The Tips share the time from 5s to 26s.
+- Three real shortcuts for Windows: Ctrl+Shift+V (paste values only), Ctrl+; (insert today&#x27;s date), Ctrl+Space (select column).
+- Table with columns: Time, Spoken line, On screen text.
+- Plain Indian English. No hashtags. No emojis.</pre><a class="psrc" href="lessons/hooks-and-30-second-scripts.html">From lesson 3.02</a></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Ask the chatbot to write the image prompt for you</h2><button class="btn small copy" type="button" data-target="p-12">Copy</button></div><pre id="p-12" tabindex="0">I need a background image for a social media post about saving time at work. Write one detailed image prompt I can paste into an image generator.
+
+Include these 5 parts as one flowing paragraph: subject, setting, style, framing, colours and mood.
+Idea: a neat desk with a laptop showing a simple spreadsheet, a cup of tea and a small clock.
+Style: clean flat illustration.
+Format: square, with empty space at the top for text.
+Add an &quot;Avoid:&quot; sentence at the end. Do not include any real person or brand.
+Give me only the prompt.</pre><a class="psrc" href="lessons/make-images-with-free-tools.html">From lesson 3.03</a></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Clean a script and split it into caption lines</h2><button class="btn small copy" type="button" data-target="p-13">Copy</button></div><pre id="p-13" tabindex="0">Here is my rough script:
+&quot;So basically what I did was I put my weekly numbers into a chatbot and then it made the summary for me which saved me around thirty minutes every single week.&quot;
+
+Do two things:
+1. Rewrite it as a clean voiceover: short sentences, simple words, natural pauses shown with &quot;...&quot;. Keep my meaning and add nothing new.
+2. Split the clean version into caption lines. Each line must have 6 words or fewer. Number the lines.</pre><a class="psrc" href="lessons/voiceovers-and-captions.html">From lesson 3.04</a></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Make a 5-day plan for freshers starting their first job</h2><button class="btn small copy" type="button" data-target="p-14">Copy</button></div><pre id="p-14" tabindex="0">Make a 5-day content plan (Monday to Friday) for people in their first year at an office job in India.
+
+Theme: &quot;Small habits that make you look reliable&quot;.
+Use these five angles, one per day: a tip, a common mistake, a short story, a free tool, a question for the audience.
+
+Output a table with columns: Day, Angle, Format (text, image or short video), Idea in one line, First line (hook, under 12 words).
+No hashtags. No emojis. Do not mention any company.</pre><a class="psrc" href="lessons/plan-a-week-of-content.html">From lesson 3.05</a></article>
+<article class="pcard slip t4" data-aud="t4"><div class="slip-h"><h2 class="ph">Write a one-page spec for a small tool</h2><button class="btn small copy" type="button" data-target="p-15">Copy</button></div><pre id="p-15" tabindex="0">Help me write a one-page spec for a small web tool called &quot;Bill Splitter&quot;.
+
+The tool: friends enter the total bill, the number of people and a tip percent. It shows the amount each person pays.
+
+Write the spec with these headings: Who uses it, Inputs, Output, 3 test cases with exact numbers, What it must NOT do.
+Rules: Work out the test case answers carefully. Keep the whole spec under 150 words. The tool must not store or send any data.</pre><a class="psrc" href="lessons/what-building-with-ai-means.html">From lesson 4.01</a></article>
+<article class="pcard slip t4" data-aud="t4"><div class="slip-h"><h2 class="ph">Build a loan EMI calculator</h2><button class="btn small copy" type="button" data-target="p-16">Copy</button></div><pre id="p-16" tabindex="0">Write a single-file HTML page: a loan EMI calculator.
+
+Inputs: loan amount in rupees, yearly interest rate in percent, number of months.
+Outputs: monthly EMI and total interest, shown in Indian number format (for example 23,072).
+Rules:
+- One file with HTML, CSS and JavaScript. No libraries, no internet calls.
+- Big input boxes and a big button that work well on a phone.
+- Use the standard formula: EMI = P x r x (1+r)^n / ((1+r)^n - 1), where r is the monthly rate.
+- Handle a 0 percent rate without an error.
+- Give me only the code.</pre><a class="psrc" href="lessons/build-a-calculator-page.html">From lesson 4.02</a></article>
+<article class="pcard slip t4" data-aud="t4"><div class="slip-h"><h2 class="ph">Colour overdue tasks pink</h2><button class="btn small copy" type="button" data-target="p-17">Copy</button></div><pre id="p-17" tabindex="0">Write a Google Apps Script function named highlightOverdue for my active sheet.
+
+My sheet: row 1 is the header. Column A = Task, B = Owner, C = Due date (a real date), D = Status (values: Open, Done).
+Behaviour: for each row from row 2, if the due date is before today and the status is not &quot;Done&quot;, set the background of columns A to D to pink. Otherwise clear the background.
+Rules: Compare dates without the time part. Do not delete or edit any values. Add a short comment before each step. Give me only the code, and 3 steps to run it.</pre><a class="psrc" href="lessons/automate-a-sheet-with-apps-script.html">From lesson 4.03</a></article>
+<article class="pcard slip t4" data-aud="t4"><div class="slip-h"><h2 class="ph">Build payment reminder links</h2><button class="btn small copy" type="button" data-target="p-18">Copy</button></div><pre id="p-18" tabindex="0">I use Google Sheets. Row 1 has headers. Columns: A = Phone (10 digits, no spaces), B = Name, C = Amount (number), D = Due date (a real date).
+
+Write one formula for E2 that makes a clickable link labelled &quot;Send on WhatsApp&quot;. It must open https://wa.me/91 plus the phone number, with this ready message:
+&quot;Hi [Name], your invoice of Rs [Amount] is due on [day month, like 5 Nov]. Please confirm payment. Thanks!&quot;
+
+Use HYPERLINK and ENCODEURL so the spaces and symbols work. Show the formula only, then the link it will build for my row 2 data.</pre><a class="psrc" href="lessons/whatsapp-message-links-from-sheets.html">From lesson 4.04</a></article>
+<article class="pcard slip t4" data-aud="t4"><div class="slip-h"><h2 class="ph">Plan a weekly inbox clean-up agent</h2><button class="btn small copy" type="button" data-target="p-19">Copy</button></div><pre id="p-19" tabindex="0">Help me design a safe AI agent plan, on paper only, for this job: &quot;Every Monday, go through my unread work emails from last week and give me a short list of what needs a reply.&quot;
+
+Write these five headings with short answers: Goal, Tools it may use, Steps (max 5), Stop rule, Human check.
+Safety rules to build in: it may only read and summarise. It must never send, delete or move any email. It must not open attachments or links.
+Keep it under 120 words.</pre><a class="psrc" href="lessons/agents-explained-simply.html">From lesson 4.05</a></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Turn a rough product list into catalogue lines</h2><button class="btn small copy" type="button" data-target="p-20">Copy</button></div><pre id="p-20" tabindex="0">Role: You write clear WhatsApp catalogue text for small Indian shops.
+Task: Turn my rough list into catalogue lines.
+Context: I run Meera&#x27;s Home Bakery in Pune. My rough list:
+- chocolate cake 500g 450, 1kg 850
+- whole wheat banana bread 400g loaf 220
+- nankhatai box of 12, 180
+- eggless option on all cakes, 50 extra
+Delivery: free within 3 km, Rs 40 beyond that, order one day before.
+Format: One line per product: name, size, price in Rs, one short plain benefit. Then one delivery line. Then one line that asks customers to reply with their order. Simple English. No emojis. No claims like &quot;best&quot; or &quot;healthiest&quot;. Under 100 words.</pre><a class="psrc" href="lessons/whatsapp-catalogue.html">From lesson 5.01</a></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Make four reply templates for your shop</h2><button class="btn small copy" type="button" data-target="p-21">Copy</button></div><pre id="p-21" tabindex="0">Role: You write polite WhatsApp replies for a small Indian shop.
+Task: Write 4 reply templates: 1) price question, 2) order is late, 3) complaint about wrong size, 4) refund request.
+Context: Shop: Rani Boutique, Jaipur. We stitch and sell women&#x27;s kurtas. Our rules: free size alteration within 7 days of purchase. Exchange within 7 days if unused. Refund only if we cannot fix or exchange the item. Refunds go back by UPI within 3 working days.
+Format: Each template under 50 words. Use blanks like [name], [item], [price], [date]. Warm, simple English. No emojis. Do not promise anything outside our rules.</pre><a class="psrc" href="lessons/reply-to-customers-fast.html">From lesson 5.02</a></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Make a Diwali offer poster for a sweet shop</h2><button class="btn small copy" type="button" data-target="p-22">Copy</button></div><pre id="p-22" tabindex="0">Role: You help small Indian shops make festival posters.
+Task: Give me two things.
+1) An image prompt for a free image tool. Square picture for a Diwali sweets offer: a brass plate of mixed Indian sweets, small diyas, marigold flowers, warm golden light. Leave the top third empty for text. Avoid: any text, letters, numbers, logos or people.
+2) Poster text that I will add myself in Canva. Shop: Gupta Mithai, Indore. Offer: 10% off all sweet boxes, 1 Nov to 10 Nov. Orders on WhatsApp: [your number].
+Format: Poster text in 4 short lines, max 6 words each. Simple English.</pre><a class="psrc" href="lessons/festival-offer-poster.html">From lesson 5.03</a></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Make a quote for an AC repair job</h2><button class="btn small copy" type="button" data-target="p-23">Copy</button></div><pre id="p-23" tabindex="0">Role: You help a small repair shop write clear quotes.
+Task: Turn my rough notes into a quote table.
+Context: Shop: Kumar Cool Services, Coimbatore. Customer: [customer name]. Notes:
+- AC general service, 2 units, 600 each
+- gas refill, 1 unit, 2500
+- outdoor unit stand, 1, 1200
+- labour for stand fitting, 400
+Format: Title &quot;Quotation&quot;. Then a table with columns: No., Item, Qty, Rate (Rs), Amount (Rs). Then a Total row. Then 2 short lines: valid for 7 days, and payment by UPI or cash after the work. Do not add tax. Do not add any item I did not list.</pre><a class="psrc" href="lessons/quote-from-rough-notes.html">From lesson 5.04</a></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Find the themes in a salon&#x27;s reviews and reply to a bad one</h2><button class="btn small copy" type="button" data-target="p-24">Copy</button></div><pre id="p-24" tabindex="0">Role: You help a small salon owner understand customer reviews.
+Task: 1) Group these reviews into themes, with review numbers. 2) Give the top 2 things to fix. 3) Write a reply to review 4.
+Reviews:
+1. Good haircut, but I waited 40 minutes.
+2. Very clean salon, friendly staff.
+3. Great facial. Fair price.
+4. Booked for 5 pm, served at 6 pm. Nobody told me. Not coming back.
+5. Polite staff. Long wait on Sundays.
+6. Nice threading, quick service.
+7. AC not working, very hot inside.
+8. Clean place, good hair colour.
+9. Long wait even with a booking.
+10. Friendly staff, fair price.
+Format: Reply under 60 words, polite, no excuses. Simple English.</pre><a class="psrc" href="lessons/learn-from-your-reviews.html">From lesson 5.05</a></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Plan a Class 8 Science lesson on photosynthesis</h2><button class="btn small copy" type="button" data-target="p-25">Copy</button></div><pre id="p-25" tabindex="0">Role: You are an experienced school Science teacher in India.
+Task: Plan one 40-minute lesson on photosynthesis for Class 8.
+Context: 40 students. I have a blackboard, chalk and some leaves from the school garden. No projector. Students know that plants need water and sunlight, but not why.
+Format: Use exactly these parts, each with minutes:
+1. Objective (1 sentence)
+2. Warm-up
+3. Activity (pairs or groups)
+4. Check (3 quick questions with answers)
+5. Homework (one short task)
+The minutes must add up to 40. Use simple English. Keep it under 170 words.</pre><a class="psrc" href="lessons/plan-a-40-minute-lesson.html">From lesson 6.01</a></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Make an area and perimeter worksheet for Class 6</h2><button class="btn small copy" type="button" data-target="p-26">Copy</button></div><pre id="p-26" tabindex="0">Role: You are a Maths teacher for Class 6 in India.
+Task: Make a short worksheet on area and perimeter of rectangles and squares.
+Format:
+- Easy: 2 questions
+- Medium: 2 questions
+- Hard: 1 word problem
+- Use cm, m and rupees. Use simple English and Indian names.
+- Then give an answer key with one line of working for each answer.
+Keep it under 170 words.</pre><a class="psrc" href="lessons/worksheet-with-answer-key.html">From lesson 6.02</a></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Learn Newton&#x27;s third law of motion and answer 3 questions</h2><button class="btn small copy" type="button" data-target="p-27">Copy</button></div><pre id="p-27" tabindex="0">Explain Newton&#x27;s third law of motion at three levels:
+1. Like I am 12 years old (2-3 lines, one everyday example)
+2. Like I am a Class 10 student (4-5 lines)
+3. Exam-ready (the law in one line, plus 3 key points and 2 examples)
+
+Use simple English.
+
+Then quiz me with 3 questions, from easy to hard. Ask one question at a time. Wait for my answer. Tell me if I am right, and explain briefly if I am wrong. Then ask the next question.</pre><a class="psrc" href="lessons/explain-at-three-levels.html">From lesson 6.03</a></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Plan 14 days of study for four subjects</h2><button class="btn small copy" type="button" data-target="p-28">Copy</button></div><pre id="p-28" tabindex="0">Make a study plan for my school exams.
+
+- Days left: 14. The exam starts on day 15.
+- I can study 3 hours a day, in two sessions of 1.5 hours.
+- Subjects: Maths, Science, Social Science, English.
+- Maths is my weakest subject. English is my strongest.
+- Days 11 and 12 are revision days.
+- Day 13 is a buffer day with nothing planned.
+- Day 14 is light review only.
+
+Format: a day-by-day list with the two subjects for each day. Then a count of sessions per subject. Keep it under 170 words.</pre><a class="psrc" href="lessons/realistic-study-plan.html">From lesson 6.04</a></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Write a short AI use note for an assignment</h2><button class="btn small copy" type="button" data-target="p-29">Copy</button></div><pre id="p-29" tabindex="0">Help me write a short AI use note to attach to my assignment.
+
+Assignment: a 500-word essay on saving water in cities.
+What I used AI for: ChatGPT (free plan) suggested an outline, and explained the difference between groundwater and surface water.
+What I did myself: I wrote all the paragraphs. I chose my own examples from my city.
+What I checked: two facts, in my Geography textbook.
+
+Rules: Write it in first person. Under 80 words. Honest and plain. Use [Student name] and [Class] as placeholders. Do not make my use of AI sound smaller or bigger than it was.</pre><a class="psrc" href="lessons/use-ai-honestly.html">From lesson 6.05</a></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Build a one-page resume from rough notes</h2><button class="btn small copy" type="button" data-target="p-30">Copy</button></div><pre id="p-30" tabindex="0">Turn my rough notes into a one-page resume.
+
+Notes:
+- B.Com, 2023, a college in Nagpur
+- 1.5 years at a small courier company, back office
+- I updated delivery records in Excel every day
+- I took calls from shop owners about late parcels
+- I made a daily late-parcel list for my manager, about 30 parcels a day
+- Languages: Hindi, English, Marathi
+
+Rules:
+- Sections: Summary (2 lines), Experience, Education, Skills.
+- Each bullet starts with an action word and ends with a result.
+- Use only facts from my notes. Do not invent skills, numbers or job titles.
+- If something is missing, write [ask me] in its place.
+- Put [Name], [City], [Phone], [Email] at the top as placeholders.</pre><a class="psrc" href="lessons/rough-notes-to-one-page-resume.html">From lesson 7.01</a></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Get the 5 changes that matter for one job post</h2><button class="btn small copy" type="button" data-target="p-31">Copy</button></div><pre id="p-31" tabindex="0">I am applying for this job. Help me tailor my resume.
+
+Job post:
+[paste the job post here]
+
+My resume:
+[paste your resume here, without phone, address or email]
+
+Give me:
+1. The 5 changes that matter most, in order. For each one: the current line, the new line, and one sentence on why.
+2. A short list of skills the post asks for that my resume does not show.
+
+Rules: Use only facts that are already in my resume. Use the post&#x27;s words where they mean the same as my work. Do not add any skill, tool or experience I do not have. Do not rewrite the whole resume.</pre><a class="psrc" href="lessons/tailor-resume-to-one-job.html">From lesson 7.02</a></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Write an application email in under 150 words</h2><button class="btn small copy" type="button" data-target="p-32">Copy</button></div><pre id="p-32" tabindex="0">Write a short job application email, under 150 words.
+
+Job: Customer Support Executive at a mid-size online pharmacy
+Where I saw it: the company careers page
+My name: Priya Nair
+Two facts that match the post:
+- 2 years handling customer calls and chats at a mobile repair chain
+- I trained 3 new joiners on our ticket system
+Why this role: I want to work in healthcare support, and I like solving problems on chat.
+Attachment: my resume (PDF)
+
+Rules: Include a subject line. Use plain, polite English. Use only the facts above. Do not use &quot;hard-working&quot;, &quot;team player&quot; or &quot;dynamic&quot;. End with [Phone] and [Email] as placeholders.</pre><a class="psrc" href="lessons/short-application-email.html">From lesson 7.03</a></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Run a mock interview with feedback on every answer</h2><button class="btn small copy" type="button" data-target="p-33">Copy</button></div><pre id="p-33" tabindex="0">Act as an interviewer for a [job title] role at a [type of company, e.g. mid-size logistics company] in India.
+About me: [2-3 lines, e.g. fresher with a B.Com, 6-month internship in accounts at a small trading firm].
+
+Run a mock interview:
+- Ask me one question at a time. Then stop and wait for my answer.
+- After each answer, give feedback in 3 short lines: one thing that worked, one thing to improve, and a better version of my answer that uses only facts I gave you.
+- Then ask the next question.
+- Ask 5 questions in total: basic ones, role-specific ones, and one about a problem I solved.
+- Use simple English.
+Start with the first question now.</pre><a class="psrc" href="lessons/practise-an-interview.html">From lesson 7.04</a></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Write a headline and a short About section</h2><button class="btn small copy" type="button" data-target="p-34">Copy</button></div><pre id="p-34" tabindex="0">Write my LinkedIn headline and About section.
+
+Facts about me:
+- 5 years as an accounts executive at a textile exporter in Surat
+- Took a 3-year career break for family; now returning to work
+- Finished a free online course in GST basics this year
+- Looking for an accounts role, open to hybrid work
+
+How I write (copy this tone): &quot;I like numbers that add up. I check twice, and I ask early when something looks wrong.&quot;
+
+Give me: 3 headline options (under 15 words each) and one About section (under 120 words, first person, 3 short paragraphs).
+Rules: Use only my facts. Do not add skills or results. Do not use: dynamic, results-driven, hashtags, emojis.</pre><a class="psrc" href="lessons/linkedin-headline-and-about.html">From lesson 7.05</a></article>
+<article class="pcard slip t4" data-aud="t4"><div class="slip-h"><h2 class="ph">Explain an error message in plain words</h2><button class="btn small copy" type="button" data-target="p-35">Copy</button></div><pre id="p-35" tabindex="0">Role: You are a patient coding helper for beginners.
+Task: Explain this error and help me fix it.
+Error message:
+[paste error here]
+Where it happened: [for example, Google Apps Script, a web page in Chrome, Python]
+The code near the error:
+[paste a few lines here]
+Format:
+1. What the error means, in 2 lines.
+2. The most likely cause in my code.
+3. The fix, with the corrected lines only.
+4. How to check that it worked.
+If you are not sure of the cause, give the top 2 guesses and how to test each.
+Remove passwords and API keys before you paste.</pre></article>
+<article class="pcard slip t4" data-aud="t4"><div class="slip-h"><h2 class="ph">A simple checklist web page</h2><button class="btn small copy" type="button" data-target="p-36">Copy</button></div><pre id="p-36" tabindex="0">Role: You build very simple web pages for beginners.
+Task: Make a one-file checklist page.
+What the checklist is for: [for example, daily shop opening]
+Items: [list your items]
+Rules: One HTML file with the CSS and JavaScript inside it. Works on a phone. Tapping an item ticks it. A &quot;Reset&quot; button clears all ticks. Large text and big tap areas. No outside libraries.
+Format: The full code in one block. Then 3 steps to open it on my phone.</pre></article>
+<article class="pcard slip t4" data-aud="t4"><div class="slip-h"><h2 class="ph">Sheets dropdown with data validation</h2><button class="btn small copy" type="button" data-target="p-37">Copy</button></div><pre id="p-37" tabindex="0">Role: You are a Google Sheets trainer.
+Task: Help me add a dropdown and block wrong entries.
+Context: Sheet name: [name]. Column [letter] holds [what, for example order status]. Allowed values: [list values]. Data starts on row [number].
+Format:
+1. Numbered steps to add the dropdown using data validation.
+2. How to reject anything not in the list.
+3. How to colour each value differently.
+4. One mistake beginners make here.
+Menu names can differ by version. If a step may look different, say so.</pre></article>
+<article class="pcard slip t4" data-aud="t4"><div class="slip-h"><h2 class="ph">Plan an automation on paper first</h2><button class="btn small copy" type="button" data-target="p-38">Copy</button></div><pre id="p-38" tabindex="0">Role: You are a calm automation planner. Do not write code yet.
+Task: Help me plan an automation before I build it.
+What I do by hand today: [describe the task step by step]
+How often: [daily / weekly]
+Tools I use: [for example, Google Sheets, Gmail, WhatsApp]
+Format:
+1. The trigger: what starts it.
+2. The steps, as a numbered list.
+3. What could go wrong at each step.
+4. What a person must still check.
+5. The simplest free way to build it.
+Ask me up to 3 questions if anything is unclear.</pre></article>
+<article class="pcard slip t4" data-aud="t4"><div class="slip-h"><h2 class="ph">Clean up and comment code I got from AI</h2><button class="btn small copy" type="button" data-target="p-39">Copy</button></div><pre id="p-39" tabindex="0">Role: You are a code reviewer who teaches beginners.
+Task: Review this code and make it easier to read.
+Code:
+[paste code here]
+What it should do: [one line]
+Format:
+1. Does it do what I said? Yes or no, with a reason.
+2. The same code with a short comment above each block.
+3. Up to 3 bugs or risks, ranked.
+Do not change how it works unless you list the change. Remove passwords and API keys before you paste.</pre></article>
+<article class="pcard slip t4" data-aud="t4"><div class="slip-h"><h2 class="ph">Test cases for my small tool</h2><button class="btn small copy" type="button" data-target="p-40">Copy</button></div><pre id="p-40" tabindex="0">Role: You are a careful tester.
+Task: Write test cases for my tool.
+The tool: [describe what it does, for example an EMI calculator page]
+Inputs it takes: [list inputs]
+Format: A table with columns Test, Input, Expected result. Include 4 normal cases, 3 edge cases (zero, blank, very large) and 2 wrong inputs (letters, negative numbers). For any expected result that needs maths, show the working so I can check it.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Google Business profile description</h2><button class="btn small copy" type="button" data-target="p-41">Copy</button></div><pre id="p-41" tabindex="0">Role: You write Google Business profile descriptions for small Indian shops.
+Task: Write a profile description for my business.
+Context: Name: [shop name]. Area and city: [area, city]. What we sell or do: [list]. What makes us different: [for example, open till 10 pm, home delivery within 3 km]. Hours: [hours].
+Format: One description under 120 words. Put the main service and area in the first sentence. Simple English. No prices, no phone numbers, no claims like &quot;best in city&quot;. Then give 3 short lines I can post as updates.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Clear price list from rough notes</h2><button class="btn small copy" type="button" data-target="p-42">Copy</button></div><pre id="p-42" tabindex="0">Role: You make neat price lists for small shops.
+Task: Turn my rough notes into a clean price list.
+My notes:
+[paste items and prices, in any messy form]
+Format: Group items under clear headings. One line per item: name, size or quantity, price in Rs. Sort by heading, then by price. Add a footer line: &quot;Prices valid from [date]. Subject to change.&quot;
+Do not change any price. If an item has no price or two prices, list it under &quot;Check these&quot; at the end.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Simple payment receipt wording</h2><button class="btn small copy" type="button" data-target="p-43">Copy</button></div><pre id="p-43" tabindex="0">Role: You help small shops write simple receipts.
+Task: Write the wording for a plain payment receipt.
+Context: Shop: [shop name, city]. I am not GST-registered. Payment modes: cash and UPI.
+Format: A receipt layout with: receipt number, date, customer name, items with amount in Rs, total, payment mode, UPI reference [last 4 digits only], and a thank-you line.
+Tax rules can change. Tell me which lines you are unsure about and what I should confirm with a CA or tax adviser before I use it.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Weekly staff duty roster</h2><button class="btn small copy" type="button" data-target="p-44">Copy</button></div><pre id="p-44" tabindex="0">Role: You plan fair staff rosters for small shops.
+Task: Make a 7-day duty roster.
+Staff: [names, and days each person cannot work]
+Shop hours: [opening to closing]
+Needs: At least [number] people at all times. [number] people on busy days: [days].
+Rules: Each person gets one full day off. No one works more than [number] hours a day.
+Format: A table with days as columns and names as rows, showing shift times. Then list any gap where the rules cannot all be met.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Festival WhatsApp broadcast message</h2><button class="btn small copy" type="button" data-target="p-45">Copy</button></div><pre id="p-45" tabindex="0">Role: You write warm festival messages for small businesses.
+Task: Write a WhatsApp broadcast for [festival name].
+Context: Shop: [shop name]. Offer: [real offer, for example 10% off sweets above Rs500]. Valid: [start date] to [end date]. How to order: [visit shop / reply on WhatsApp].
+Format: 2 versions, each under 60 words. One in English, one in simple Hinglish. Greeting first, then the offer, dates and how to order. End with a line on how to stop getting messages. No emojis. Do not exaggerate the offer.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Order message to a supplier</h2><button class="btn small copy" type="button" data-target="p-46">Copy</button></div><pre id="p-46" tabindex="0">Role: You write clear purchase messages for small shops.
+Task: Write an order message to my supplier.
+Supplier: [name]
+Items: [item, quantity, unit, agreed rate in Rs]
+Delivery needed by: [date]
+Payment: [for example, UPI on delivery]
+Format: A WhatsApp message under 80 words with a numbered item list and a total. Ask them to confirm stock and delivery date. Check my total and show the working. Polite and short.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Handle a customer who bargains hard</h2><button class="btn small copy" type="button" data-target="p-47">Copy</button></div><pre id="p-47" tabindex="0">Role: You train shop staff to stay polite and firm.
+Task: Give me replies for a customer who keeps asking for a lower price.
+Context: I sell [product]. My price: Rs[price]. Lowest I can go: Rs[lowest price]. What I can add instead of a discount: [for example, free delivery, a small gift].
+Format: 5 short replies I can say, from first ask to final answer. Each under 25 words. Friendly, never rude. Do not go below my lowest price. Add one line on when to stop bargaining and let the customer go.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Instagram bio for my shop</h2><button class="btn small copy" type="button" data-target="p-48">Copy</button></div><pre id="p-48" tabindex="0">Role: You write short Instagram bios for local businesses.
+Task: Write a bio for my shop&#x27;s page.
+Context: Shop: [name]. What we sell: [products]. Area: [area, city]. Main action I want: [for example, order on WhatsApp, visit the shop].
+Format: 5 bio options, each under 150 characters, in 2 to 4 short lines. Say what we sell and where in the first line. End with the main action. No emojis. No phone numbers inside the bio.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Simple FAQ for my shop</h2><button class="btn small copy" type="button" data-target="p-49">Copy</button></div><pre id="p-49" tabindex="0">Role: You write simple FAQs for small shops.
+Task: Make an FAQ from the questions customers ask me.
+Common questions: [list them]
+My rules and answers: [timings, delivery area, payment modes, return rules]
+Format: 8 to 10 questions with answers under 30 words each. Use only the rules I gave. If a question needs a rule I did not give, write &quot;[Add your rule]&quot; instead of guessing.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Reply to an unfair 1-star review</h2><button class="btn small copy" type="button" data-target="p-50">Copy</button></div><pre id="p-50" tabindex="0">Role: You help businesses reply to reviews calmly in public.
+Task: Write a reply to a 1-star review that I think is unfair.
+Review:
+[paste review here, without the reviewer&#x27;s phone number]
+What really happened: [your side, in facts]
+Format: A public reply under 70 words. Thank them, stay calm, state the facts without blame, and invite them to talk directly at [shop name or counter, not a personal number]. Then give one line on what not to write, and why.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Reorder reminder for regular customers</h2><button class="btn small copy" type="button" data-target="p-51">Copy</button></div><pre id="p-51" tabindex="0">Role: You write gentle reminder messages for shops.
+Task: Write a reorder reminder for customers who buy [product] every [number] days.
+Context: Shop: [name]. How to reorder: [reply on WhatsApp / call the shop / visit].
+Format: 3 versions: first reminder, second reminder after 5 days, and a short &quot;we miss you&quot; note. Each under 40 words. Use [name] and [last order date] as blanks. Friendly, not pushy. Add a line on how to stop reminders.</pre></article>
+<article class="pcard slip t5" data-aud="t5"><div class="slip-h"><h2 class="ph">Cash-book summary from my list</h2><button class="btn small copy" type="button" data-target="p-52">Copy</button></div><pre id="p-52" tabindex="0">Role: You are a careful bookkeeping helper for a small shop.
+Task: Summarise my cash book for [week or month].
+My entries:
+[paste entries: date, details, money in or out, amount in Rs, cash or UPI]
+Format:
+1. Total money in, total money out, and the difference.
+2. A table of spending by type.
+3. The 3 largest expenses.
+Show your working for every total. Mark any entry that looks like a duplicate or a typing mistake. This is not tax advice. Tell me what to check with my accountant.
+Remove account numbers before you paste.</pre></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Five Instagram captions for one photo</h2><button class="btn small copy" type="button" data-target="p-53">Copy</button></div><pre id="p-53" tabindex="0">Role: You write short Instagram captions for Indian creators.
+Task: Write 5 captions for one post.
+Context: The photo or reel shows: [describe it]. My page is about [topic]. My audience: [for example, college students in Pune]. My voice is [for example, friendly and a little funny].
+Format: 5 captions, each under 25 words, each with a different style: question, tip, short story, bold statement, call to comment. Add 5 relevant hashtags at the end, not inside the captions. No emojis.</pre></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">YouTube video description with timestamps</h2><button class="btn small copy" type="button" data-target="p-54">Copy</button></div><pre id="p-54" tabindex="0">Role: You write clear YouTube descriptions.
+Task: Write a description for my video.
+Video title: [title]
+What the video covers, in order, with times:
+[paste rough notes, for example 0:00 intro, 1:20 step one]
+Format:
+1. A first line under 20 words that says what the viewer will learn.
+2. A 3-line summary.
+3. Timestamps in the format 0:00 Topic.
+4. One line asking viewers to comment with a question.
+Use only the topics in my notes. Do not promise anything the video does not show.</pre></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Carousel outline from one idea</h2><button class="btn small copy" type="button" data-target="p-55">Copy</button></div><pre id="p-55" tabindex="0">Role: You plan Instagram and LinkedIn carousels.
+Task: Turn one idea into an 8-slide carousel outline.
+Idea: [your idea, for example 5 mistakes first-time investors make]
+Audience: [who it is for]
+Format: For each slide give a slide number, a headline under 8 words, and body text under 25 words. Slide 1 is a hook. Slide 8 asks people to save or share.
+If the idea touches money, health or law, mark any claim I should check before posting, and say what source to check.</pre></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Reply to comments on my post</h2><button class="btn small copy" type="button" data-target="p-56">Copy</button></div><pre id="p-56" tabindex="0">Role: You help me reply to comments in my own voice.
+Task: Write replies to these comments.
+My post was about: [topic]
+My voice: [for example, warm, short, uses simple Hinglish]
+Comments:
+[paste comments here, without usernames]
+Format: One reply per comment, under 30 words each. Thank genuine comments. Answer questions only with facts I gave you. For rude comments, give a calm reply and also say if it is better to ignore it.</pre></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Repurpose one post into three formats</h2><button class="btn small copy" type="button" data-target="p-57">Copy</button></div><pre id="p-57" tabindex="0">Role: You are a content editor who reuses good ideas.
+Task: Turn this one post into 3 new formats.
+Original post:
+[paste post here]
+Format:
+1. A 30-second reel script with a hook in the first line and on-screen text.
+2. A LinkedIn post under 120 words.
+3. A WhatsApp status line under 20 words.
+Keep the same main message and facts. Change the style for each platform. Do not add new claims.</pre></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Hook lines for a reel I already filmed</h2><button class="btn small copy" type="button" data-target="p-58">Copy</button></div><pre id="p-58" tabindex="0">Role: You write the first line of short videos.
+Task: Give me 10 hook lines for a reel.
+The reel shows: [describe what happens in the video]
+Audience: [who watches]
+Format: 10 hooks, each under 12 words. Use 5 different types: question, surprising fact, mistake, before-and-after, direct promise. Mark the 2 you think are strongest and say why in one line each.
+If a hook states a fact or number, mark it so I can check it is true.</pre></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Thumbnail text options</h2><button class="btn small copy" type="button" data-target="p-59">Copy</button></div><pre id="p-59" tabindex="0">Role: You design text for YouTube thumbnails.
+Task: Suggest text for my video thumbnail.
+Video title: [title]
+What the viewer gets: [one line]
+Format: 8 options, each 2 to 5 words, in big-text style. Do not repeat the title word for word. For each, add one line on what image or face expression would suit it. No clickbait that the video does not deliver.</pre></article>
+<article class="pcard slip t3" data-aud="t3"><div class="slip-h"><h2 class="ph">Polite reply to a brand collaboration offer</h2><button class="btn small copy" type="button" data-target="p-60">Copy</button></div><pre id="p-60" tabindex="0">Role: You help small creators reply to brands professionally.
+Task: Write a reply to a brand that wants to work with me.
+Their message:
+[paste message here, without phone numbers or emails]
+My details: Followers: [number]. My usual rate: Rs[amount] for [deliverable]. What I will not do: [for example, fake reviews].
+Format: An email under 120 words. Thank them, ask for the brief, timeline, deliverables and payment terms, and share my rate. Then list 3 things I should check before I agree, such as payment dates and usage rights.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Polite message to parents</h2><button class="btn small copy" type="button" data-target="p-61">Copy</button></div><pre id="p-61" tabindex="0">Role: You help teachers write clear, kind messages to parents.
+Task: Write a message to the parents of [student name], Class [class].
+Reason: [for example, missed homework three times, a big improvement, a test next week]
+What I want the parent to do: [action]
+Format: A WhatsApp message under 70 words. Start with something positive and true. Describe the issue as facts. Give one clear request and a date. Then give the same message in simple Hindi. No blame, no labels.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Marking rubric for an assignment</h2><button class="btn small copy" type="button" data-target="p-62">Copy</button></div><pre id="p-62" tabindex="0">Role: You are an experienced teacher who designs fair rubrics.
+Task: Make a marking rubric.
+Assignment: [describe it, for example a 300-word essay on water saving]
+Class: [class]. Total marks: [number].
+Format: A table with 4 criteria as rows and 4 levels as columns (Excellent, Good, Fair, Needs work). Each cell one short line on what the work looks like. Marks for each level. Then 2 lines on how to share the rubric with students before they start.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">MCQs with good wrong options</h2><button class="btn small copy" type="button" data-target="p-63">Copy</button></div><pre id="p-63" tabindex="0">Role: You write fair multiple-choice questions.
+Task: Write 8 MCQs on [topic] for Class [class], [board, for example CBSE].
+Format: Each question has 4 options. Only one is correct. The wrong options must be common student mistakes, not silly answers. After each question give the answer and one line on the mistake each wrong option tests.
+Check every answer. If you are unsure whether a fact matches the textbook, say so and tell me to check the chapter.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Mind-map outline of a chapter</h2><button class="btn small copy" type="button" data-target="p-64">Copy</button></div><pre id="p-64" tabindex="0">Role: You help students see how a topic fits together.
+Task: Make a mind-map outline for [chapter or topic], Class [class].
+Format: The main topic in the centre. 4 to 6 main branches. Under each, 2 to 4 short sub-points (under 6 words each). Mark links between branches with &quot;links to&quot;. Plain text with indents, so I can draw it on paper.
+Use only what is normally in this chapter. Tell me if any point may differ from my textbook.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Flashcards from my notes</h2><button class="btn small copy" type="button" data-target="p-65">Copy</button></div><pre id="p-65" tabindex="0">Role: You make flashcards for revision.
+Task: Turn my notes into flashcards.
+My notes:
+[paste notes here]
+Format: 15 cards. Each card: Front (a question, under 12 words) and Back (the answer, under 20 words). Mix definitions, examples and &quot;why&quot; questions. Use only facts from my notes. If a note looks wrong or unclear, list it at the end under &quot;Check this&quot;.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Find the mistake in my maths steps</h2><button class="btn small copy" type="button" data-target="p-66">Copy</button></div><pre id="p-66" tabindex="0">Role: You are a patient maths tutor. Do not just give the answer.
+Task: Look at my working and find where I went wrong.
+Question: [paste question]
+My steps:
+[paste each step on its own line]
+Format:
+1. The first step that has a mistake, and what the mistake is.
+2. A hint to fix it myself.
+3. Only after the hint, the correct working.
+Check your own maths carefully. If you are unsure, say so.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Doubts list before a test</h2><button class="btn small copy" type="button" data-target="p-67">Copy</button></div><pre id="p-67" tabindex="0">Role: You are a revision coach.
+Task: Help me find my doubts before my [subject] test on [date].
+Topics in the test: [list]
+How sure I feel about each: [for example, Topic 1: sure, Topic 2: not sure]
+Format: Ask me 2 quick check questions for each topic I am not sure about. Wait for my answers. Then give me a list of my doubts to ask my teacher, in priority order.
+If you are not sure what my syllabus covers, say so.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Explain a topic in Hindi and English</h2><button class="btn small copy" type="button" data-target="p-68">Copy</button></div><pre id="p-68" tabindex="0">Role: You are a bilingual teacher who explains in simple Hindi and English.
+Task: Explain [topic] for a Class [class] student.
+Format:
+1. A short explanation in simple English (under 80 words).
+2. The same explanation in simple Hindi, in Devanagari.
+3. 5 key terms with the English word, the Hindi word and a one-line meaning.
+4. One everyday Indian example.
+Keep technical terms in English where students learn them in English. Tell me if any Hindi term is not commonly used in schools.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Group activity for a class</h2><button class="btn small copy" type="button" data-target="p-69">Copy</button></div><pre id="p-69" tabindex="0">Role: You plan active, low-cost classroom activities.
+Task: Plan a group activity on [topic] for Class [class].
+Context: [number] students. [number] minutes. Materials available: [for example, chart paper, chalk, old newspapers].
+Format: Activity name, aim (one line), group size, step-by-step instructions with time for each step, roles in each group, and 3 questions to ask at the end. Add one way to include quiet students.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Viva practice, one question at a time</h2><button class="btn small copy" type="button" data-target="p-70">Copy</button></div><pre id="p-70" tabindex="0">Role: You are a fair but strict viva examiner.
+Task: Take a practice viva on [subject or practical name], Class [class].
+Rules: Ask me one question at a time. Wait for my answer. After each answer, give a score out of 5, one line on what was good, and one line on what was missing. Start easy and get harder. Stop after 8 questions and give me my 3 weakest areas.
+If you are unsure what my exam board expects, say so.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Summary of a chapter I paste</h2><button class="btn small copy" type="button" data-target="p-71">Copy</button></div><pre id="p-71" tabindex="0">Role: You make clear revision summaries.
+Task: Summarise this chapter text.
+Chapter text:
+[paste text here]
+Format:
+1. The main idea in 2 lines.
+2. Key points as a numbered list (under 12 points).
+3. Important terms with one-line meanings.
+4. 3 likely exam questions.
+Use only the text I pasted. Do not add facts from outside. If part of the text is cut off or unclear, tell me.</pre></article>
+<article class="pcard slip t6" data-aud="t6"><div class="slip-h"><h2 class="ph">Weekly routine with school and tuition</h2><button class="btn small copy" type="button" data-target="p-72">Copy</button></div><pre id="p-72" tabindex="0">Role: You plan realistic weekly routines for school students.
+Task: Make a weekly timetable for me.
+Context: School: [time to time]. Tuition: [days and times]. Travel time: [minutes]. Sleep: [bedtime and wake time]. Subjects that need extra time: [list]. Free time I want: [for example, 1 hour of play daily].
+Format: A table with days as columns and time slots as rows. Keep at least one free evening. Then 3 tips to follow it when a day goes wrong.</pre></article>
+<article class="pcard slip " data-aud="all"><div class="slip-h"><h2 class="ph">Plan a monthly budget from my list</h2><button class="btn small copy" type="button" data-target="p-73">Copy</button></div><pre id="p-73" tabindex="0">Role: You are a practical money helper for Indian households.
+Task: Make a monthly budget from my numbers.
+Income: Rs[amount] per month.
+Expenses:
+[paste list: item and amount in Rs, for example rent, groceries, EMI, school fees]
+Savings goal: Rs[amount] per month.
+Format: A table with fixed costs, variable costs and savings. Show totals and the difference. Then 3 realistic places to cut.
+Show your working for every total. This is not financial advice. Say what you are unsure about. Remove account numbers before you paste.</pre></article>
+<article class="pcard slip " data-aud="all"><div class="slip-h"><h2 class="ph">Compare two phones from specs I paste</h2><button class="btn small copy" type="button" data-target="p-74">Copy</button></div><pre id="p-74" tabindex="0">Role: You help ordinary buyers compare phones honestly.
+Task: Compare these two phones for me.
+Phone A specs:
+[paste specs here]
+Phone B specs:
+[paste specs here]
+How I use my phone: [for example, WhatsApp, UPI, photos of kids, some games]. Budget: Rs[amount].
+Format: A table of the specs that matter for my use. Then which suits me better, in 3 lines. Use only the specs I pasted. Tell me what to check in reviews or in a shop before buying.</pre></article>
+<article class="pcard slip " data-aud="all"><div class="slip-h"><h2 class="ph">Explain a bill line by line</h2><button class="btn small copy" type="button" data-target="p-75">Copy</button></div><pre id="p-75" tabindex="0">Role: You explain bills in plain words.
+Task: Explain this bill to me.
+Bill type: [electricity / mobile / hospital / other]
+Bill text:
+[paste bill text here, without account number, address or phone number]
+Format:
+1. What each line or charge means.
+2. Whether the total adds up, with your working.
+3. Any charge that looks unusual.
+4. What to ask the company if something looks wrong.
+Say what you are unsure about. Do not guess tariff rates.</pre></article>
+<article class="pcard slip " data-aud="all"><div class="slip-h"><h2 class="ph">Travel packing checklist</h2><button class="btn small copy" type="button" data-target="p-76">Copy</button></div><pre id="p-76" tabindex="0">Role: You are a careful travel planner.
+Task: Make a packing checklist for my trip.
+Trip: [place], [number] days, in [month]. Travelling by [train / bus / flight / car]. People: [for example, 2 adults, 1 child aged 4]. Special needs: [for example, medicines, a wedding to attend].
+Format: A checklist grouped under documents, clothes, medicines, money and phone, kids, and travel day. Then 3 things people often forget. Tell me to check ID and ticket rules with the transport provider.</pre></article>
+<article class="pcard slip " data-aud="all"><div class="slip-h"><h2 class="ph">Recipe from what is in my kitchen</h2><button class="btn small copy" type="button" data-target="p-77">Copy</button></div><pre id="p-77" tabindex="0">Role: You are a home cook who makes simple Indian meals.
+Task: Suggest a dish I can make now.
+What I have: [list ingredients]
+Time: [minutes]. People: [number]. Food rules: [for example, vegetarian, no onion-garlic, mild spice].
+Format: 2 options. For each: dish name, ingredients with amounts, numbered steps, and total time. Use only what I have, plus salt, oil and water. If a step needs something I do not have, give a swap.
+If anyone has a food allergy, remind me to check every ingredient.</pre></article>
+<article class="pcard slip " data-aud="all"><div class="slip-h"><h2 class="ph">Make a hard message kinder</h2><button class="btn small copy" type="button" data-target="p-78">Copy</button></div><pre id="p-78" tabindex="0">Role: You help people say difficult things gently.
+Task: Help me say something hard to [relation, for example my cousin].
+What I need to say: [for example, I cannot lend money this time]
+What I want to keep: [for example, our good relationship]
+Format: 3 versions, each under 60 words: very gentle, gentle but clear, and short and firm. Each must still say the real message. Then give one line on what not to say.</pre></article>
+<article class="pcard slip " data-aud="all"><div class="slip-h"><h2 class="ph">Learn a list of new words</h2><button class="btn small copy" type="button" data-target="p-79">Copy</button></div><pre id="p-79" tabindex="0">Role: You are a friendly English tutor.
+Task: Help me learn these new words.
+Words: [list 5 to 10 words]
+My level: [for example, I understand English but speak it slowly]
+Format: For each word: meaning in simple English, Hindi meaning, one example sentence from Indian daily life or work. Then a 5-question quiz. Wait for my answers before you tell me the right ones.</pre></article>
+<article class="pcard slip " data-aud="all"><div class="slip-h"><h2 class="ph">Check a forwarded message for signs it is fake</h2><button class="btn small copy" type="button" data-target="p-80">Copy</button></div><pre id="p-80" tabindex="0">Role: You help people spot fake and scam messages.
+Task: Check this forwarded message.
+Message:
+[paste message here, without phone numbers or links you are unsure about]
+Format:
+1. Signs that it may be fake or a scam.
+2. Claims that need checking, and where to check each.
+3. Your view: likely true, unclear, or likely fake, with a reason.
+4. What I should do now.
+You cannot confirm news by yourself. Say what you are unsure about. Never ask me for an OTP or bank details.</pre></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Follow-up email after an interview</h2><button class="btn small copy" type="button" data-target="p-81">Copy</button></div><pre id="p-81" tabindex="0">Role: You help job seekers write short, professional emails.
+Task: Write a thank-you follow-up after my interview.
+Context: Role: [job title] at [company]. Interviewer: [name]. Date: [date]. One thing we discussed: [topic]. One skill I want to remind them of: [skill, with a real example].
+Format: Subject line plus an email under 100 words. Thank them, mention the discussion, add the skill in one line, and say I look forward to the next step. Polite, not pushy.</pre></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Salary negotiation script</h2><button class="btn small copy" type="button" data-target="p-82">Copy</button></div><pre id="p-82" tabindex="0">Role: You are a calm career coach.
+Task: Help me ask for a better salary offer.
+Context: Role: [job title], city: [city]. Offer: Rs[amount] per year. What I want: Rs[amount]. My reasons: [for example, current salary, skills, other offers if real].
+Format: 1) A short script to say on a call (under 90 words). 2) Replies if they say &quot;this is our best offer&quot;. 3) Non-salary things I can ask for.
+Salary data varies a lot. Say what you are unsure about and tell me where to check market pay.</pre></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Explain a career gap honestly</h2><button class="btn small copy" type="button" data-target="p-83">Copy</button></div><pre id="p-83" tabindex="0">Role: You are a fair career coach.
+Task: Help me explain a gap in my work history.
+Context: Gap: [start month and year] to [end month and year]. Real reason: [for example, family care, health, exam preparation, layoff]. What I did in that time: [courses, freelance work, skills, if any].
+Format: 1) One line for my resume. 2) A spoken answer under 60 words for interviews. 3) One follow-up question they may ask, with a short answer.
+Keep it true. Do not invent work or courses. I do not need to share private health details.</pre></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Questions to ask the interviewer</h2><button class="btn small copy" type="button" data-target="p-84">Copy</button></div><pre id="p-84" tabindex="0">Role: You are an interview coach.
+Task: Give me good questions to ask at the end of my interview.
+Context: Role: [job title] at [company]. Round: [HR / manager / final]. What I already know about the role: [notes].
+Format: 8 questions in 3 groups: the work, the team, and growth. Mark the 3 best for this round. Avoid questions the job post already answers. Add 2 questions I should not ask in this round, and why.</pre></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Research a role from a job post</h2><button class="btn small copy" type="button" data-target="p-85">Copy</button></div><pre id="p-85" tabindex="0">Role: You help freshers understand what a job really involves.
+Task: Explain this job post to me.
+Job post:
+[paste job post here]
+Format:
+1. What a normal day in this role likely looks like, in 5 lines.
+2. Must-have skills versus nice-to-have skills.
+3. Words in the post I may not know, with meanings.
+4. 5 things to find out about the company before the interview.
+This is your best guess from the post. Say clearly where you are unsure.</pre></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Cold message to ask for a referral</h2><button class="btn small copy" type="button" data-target="p-86">Copy</button></div><pre id="p-86" tabindex="0">Role: You help people write respectful networking messages.
+Task: Write a LinkedIn message asking for a referral.
+Context: Person: [name], works at [company] as [role]. How we are connected: [for example, same college, a mutual friend]. Job I want: [job title, job ID if any]. My fit in one line: [real skill or experience].
+Format: A message under 80 words. Short intro, why I am writing to them, one line on fit, and a clear small ask. Make it easy to say no. No flattery.</pre></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">30-second self-introduction</h2><button class="btn small copy" type="button" data-target="p-87">Copy</button></div><pre id="p-87" tabindex="0">Role: You are an interview coach.
+Task: Write my &quot;Tell me about yourself&quot; answer.
+Context: Name: [name]. Education: [degree, college]. Experience: [roles and years, or internships]. Two real strengths with examples: [list]. Role I am applying for: [job title].
+Format: A spoken answer of about 75 words (30 seconds). Present, past, then why this role. Simple words that sound natural when spoken. Then give one shorter 15-second version.
+Use only the facts I gave you.</pre></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">STAR answer from my own story</h2><button class="btn small copy" type="button" data-target="p-88">Copy</button></div><pre id="p-88" tabindex="0">Role: You are an interview coach who uses the STAR method.
+Task: Turn my story into a STAR answer.
+The question: [for example, &quot;Tell me about a time you solved a problem&quot;]
+My story, in my own words:
+[paste story here]
+Format: Situation, Task, Action, Result, each in 1 to 2 lines. Keep the Action part the longest and focused on what I did. Keep numbers only if I gave them. Then tell me what detail is missing and ask me for it.
+Do not invent results.</pre></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Questions to check before I accept an offer</h2><button class="btn small copy" type="button" data-target="p-89">Copy</button></div><pre id="p-89" tabindex="0">Role: You help freshers read job offers carefully.
+Task: Make a checklist of questions about my offer letter.
+Offer details:
+[paste key parts of the offer, without PAN, Aadhaar or bank details]
+Format: A checklist grouped under: pay (fixed versus variable, in-hand estimate), notice period, probation, bond or training costs, leave, work location and hours. For each item, say what my offer says or &quot;Not mentioned&quot;.
+This is not legal advice. Mark anything unusual and tell me what to confirm with HR in writing.</pre></article>
+<article class="pcard slip t7" data-aud="t7"><div class="slip-h"><h2 class="ph">Resignation email</h2><button class="btn small copy" type="button" data-target="p-90">Copy</button></div><pre id="p-90" tabindex="0">Role: You help people leave jobs on good terms.
+Task: Write my resignation email.
+Context: Manager: [name]. My role: [job title]. Last working day as per my notice period: [date]. Reason I want to share, if any: [short and positive].
+Format: Subject line plus an email under 120 words. Clear resignation in the first line, last working day, thanks for one real thing, and an offer to help with handover. Polite and neutral. No complaints.
+Check my notice period in my offer letter or HR policy before I send.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Polite reminder for an overdue client payment</h2><button class="btn small copy" type="button" data-target="p-91">Copy</button></div><pre id="p-91" tabindex="0">Role: You write polite, firm business emails for an Indian company.
+Task: Write a reminder to a client whose payment is overdue.
+Context: Client: [client name]. Invoice: [invoice number] for Rs[amount], due on [due date]. It is now [number] days late. This is my [first / second] reminder. We have a good relationship and I want to keep it.
+Format: Subject line plus an email under 100 words. Thank them, state the amount and date, ask for a payment date, and offer help if there is a problem with the invoice. No threats.
+Remove account numbers before you paste.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Decline a meeting without sounding rude</h2><button class="btn small copy" type="button" data-target="p-92">Copy</button></div><pre id="p-92" tabindex="0">Role: You help me write short, polite work messages.
+Task: Help me decline a meeting invite.
+Context: Meeting: [meeting topic] on [date and time], from [name, their role]. My reason: [real reason, for example a deadline or a clash]. I can still help by [offer, for example sending notes or joining for 10 minutes].
+Format: Give me 2 versions: one for email (under 70 words) and one for WhatsApp (under 40 words). Warm and clear. Do not over-apologise. Do not invent a reason.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Meeting agenda from one goal</h2><button class="btn small copy" type="button" data-target="p-93">Copy</button></div><pre id="p-93" tabindex="0">Role: You are an experienced meeting planner.
+Task: Make an agenda for a meeting.
+Context: Goal of the meeting: [what must be decided or done by the end]. Length: [30 / 45 / 60] minutes. People: [names and roles]. Things already known: [paste short notes here].
+Format:
+1. A one-line purpose.
+2. Agenda items with time in minutes and an owner for each.
+3. What each person should prepare before the meeting.
+4. The decision we must leave with.
+Keep the whole agenda under 120 words.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Explain a new policy simply to my team</h2><button class="btn small copy" type="button" data-target="p-94">Copy</button></div><pre id="p-94" tabindex="0">Role: You are a team lead who explains rules in plain words.
+Task: Turn this company policy into a short team message.
+Context: My team is [team type, for example field sales or warehouse staff]. Many read English as a second language.
+Policy text:
+[paste policy here]
+Format: 1) What is changing, in 3 short lines. 2) What each person must do and by when. 3) Five likely questions with short answers.
+Use only what the policy says. If something is unclear, list it under &quot;Check with HR&quot; instead of guessing.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Voice-note transcript to a task list</h2><button class="btn small copy" type="button" data-target="p-95">Copy</button></div><pre id="p-95" tabindex="0">Role: You are my assistant who turns rambling notes into clear tasks.
+Task: Read this transcript of a WhatsApp voice note and pull out the tasks.
+Transcript:
+[paste transcript here]
+Format: A table with columns Task, Owner, Due date, Notes. One row per task. If the owner or date is not said, write &quot;Not said&quot;. Below the table, list anything that sounds like a decision and anything I should confirm with the sender.
+Do not add tasks that are not in the transcript.
+Remove phone numbers before you paste.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Explain an Excel or Sheets formula line by line</h2><button class="btn small copy" type="button" data-target="p-96">Copy</button></div><pre id="p-96" tabindex="0">Role: You are a patient spreadsheet trainer.
+Task: Explain this formula to me.
+Formula: [paste formula here]
+Context: It is in [Excel / Google Sheets]. My columns are: [list column letters and what they hold].
+Format:
+1. In one sentence, what the formula does.
+2. Each part of the formula, one line per part, in plain words.
+3. One example with made-up numbers showing the result.
+4. One common way this formula breaks, and how to fix it.
+If you are not sure what a part refers to, say so.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Write an SOP from my rough steps</h2><button class="btn small copy" type="button" data-target="p-97">Copy</button></div><pre id="p-97" tabindex="0">Role: You write simple standard operating procedures (SOPs) for Indian offices.
+Task: Turn my rough steps into a clean SOP.
+Process name: [for example, raising a purchase request]
+Who does it: [role]
+My rough steps:
+[paste steps here]
+Format: Title, purpose (one line), who it is for, numbered steps (one action each, start with a verb), common mistakes, and who to contact if stuck: [role, not a phone number].
+Do not add steps I did not give. If a step seems missing, list it under &quot;Questions for me&quot; at the end.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Handover note before leave</h2><button class="btn small copy" type="button" data-target="p-98">Copy</button></div><pre id="p-98" tabindex="0">Role: You help people write clear handover notes.
+Task: Write a handover note for my colleague while I am on leave.
+Context: I am away from [start date] to [end date]. Colleague: [name]. My open work:
+[paste a rough list: task, status, next step, deadline]
+Format:
+1. A two-line summary.
+2. A table: Task, Status, Next step, Deadline, Who to ask.
+3. Things that can wait until I am back.
+4. Where files are kept: [folder or link names only].
+Keep it under 200 words. Use simple English.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Feedback for a teammate that helps</h2><button class="btn small copy" type="button" data-target="p-99">Copy</button></div><pre id="p-99" tabindex="0">Role: You are a fair and kind team manager.
+Task: Help me give feedback to a teammate.
+Context: Teammate: [name], [role]. What went well: [one or two real examples]. What needs to change: [one real example with date and effect]. What I want next time: [clear expectation].
+Format: A short script I can say in a one-to-one meeting (under 120 words). Start with something specific that went well. Describe the issue as facts, not labels. End with one question that asks for their view. Then give 2 things I should avoid saying.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Compare two vendor quotes</h2><button class="btn small copy" type="button" data-target="p-100">Copy</button></div><pre id="p-100" tabindex="0">Role: You are a careful purchase officer.
+Task: Compare two vendor quotes and help me choose.
+What we are buying: [item or service]
+Quote A:
+[paste quote here]
+Quote B:
+[paste quote here]
+Format: A table comparing price, taxes, delivery time, warranty, payment terms and anything missing. Then: which looks better and why, in 3 lines.
+Check the totals. If a quote is unclear about tax, delivery or extra charges, say so and tell me what to ask the vendor before I decide.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Rewrite in simple English</h2><button class="btn small copy" type="button" data-target="p-101">Copy</button></div><pre id="p-101" tabindex="0">Role: You are an editor who makes writing easy to read.
+Task: Rewrite this text in simple English.
+Text:
+[paste text here]
+Reader: [for example, new joiners, customers, factory staff]
+Rules: Short sentences (under 15 words). Common words. Active voice. Keep every fact, number and date the same. Do not add new information.
+Format: The rewritten text first. Then a short list of any words or lines you changed in meaning, so I can check them.</pre></article>
+<article class="pcard slip t2" data-aud="t2"><div class="slip-h"><h2 class="ph">Translate an email to Hindi, keep the tone</h2><button class="btn small copy" type="button" data-target="p-102">Copy</button></div><pre id="p-102" tabindex="0">Role: You are a skilled Hindi-English translator for office work.
+Task: Translate this email into Hindi.
+Email:
+[paste email here]
+Context: The reader is [name, role]. The tone is [formal / friendly / firm].
+Rules: Keep the same tone and level of respect (aap, not tum). Use everyday Hindi that people use at work, not very pure or bookish words. Keep names, numbers, dates and product names as they are.
+Format: The Hindi email in Devanagari. Then list any lines where the meaning was hard to keep, so I can check them with a Hindi speaker.</pre></article></div>
+<p class="small pnone" id="pnone" hidden>No prompt matches. Try a shorter word.</p>
+</main>
+<footer class="foot">
+ <nav class="fnav" aria-label="More from Practical AI"><a href="search.html">Search</a><a href="prompts.html">Prompt library</a><a href="tools.html">Free tools</a><a href="glossary.html">AI words</a><a href="safety.html">Stay safe</a><a href="certificate.html">Certificate</a></nav>
+ <p class="foot-big">Free. No sign-up. No ads. No tracking.</p>
+ <p>Your progress stays on this phone only.</p>
+ <p class="small">AI tools can be wrong. Check facts, numbers and dates before you share them. Free plans and limits change, so check each tool's own page.</p>
+ <p class="colo small">Set in Big Shoulders, Zilla Slab and Courier Prime. Printed on your screen, works offline.</p>
+</footer>
+<script>window.PAI_T={"copied":"Copied","hold_to_copy":"Press and hold to copy","done":"Done","not_done":"Not done","lessons_done":"{n} of {t} lessons done","level":"Level {n} · {name}","levels":"Newcomer|Warming up|Getting fast|Power user|Pro|AI-ready","track_count":"{n} of {k} done","all_done_btn":"All done. Review any lesson","continue":"Continue: {title}","start":"Start lesson 1","reset_confirm":"Reset all progress on this phone?","stamped_undo":"Stamped. Tap to undo","mark_done":"Stamp it: mark as done","in_track":"{n} of {k} done in this track","saved":"Saved on this phone.","track_complete":"Track complete! You finished \"{name}\".","stamped":"Stamped. Saved on this phone.","all_complete":"All {n} lessons done. You are AI-ready.","choose":"Please choose an answer.","correct":"Correct.","not_quite":"Not quite.","answer_all":"Answer all {n} questions first.","score":"You got {r} of {n}.","full_marks":"Full marks. Now stamp the ticket below.","try_again":"Read the notes above and try again.","slip_no":"No. {n}","shown":"{n} shown","results":"{n} found","no_results":"Nothing found. Try one simple word, like \"email\" or \"resume\".","search_failed":"Search could not load. Reload the page once you are online.","kind_l":"Lesson","kind_p":"Prompt","kind_w":"AI word","kind_t":"Tool","kind_g":"Guide","cert_progress":"{d} of {k} done","cert_whole":"Whole course ({n} lessons)","cert_track":"Track {n}: {name}","cert_band_l":"Practical AI · Job-work press","cert_band_r":"Free course · Self-issued","cert_heading":"Certificate of completion","cert_records":"This records that","cert_your_name":"Your name","cert_did_all":"finished all {n} lessons of Practical AI, a free course on using AI for real work.","cert_did_track":"finished {track} ({n} lessons) of Practical AI, a free course on using AI for real work.","cert_date":"Marked done on this phone on {date}","cert_fine":"Self-issued. It records lessons marked done on one phone. Nobody has checked it. It is not a qualification.","cert_locked":"Finish every lesson in a track to unlock its certificate.","cert_need_name":"Type your name to save or print.","cert_stamp":"Done","cert_ring":"Practical AI · Checked by you"}</script>
+<script src="app.js" defer></script>
+<script src="hubs.js" defer></script>
+</body>
+</html>
